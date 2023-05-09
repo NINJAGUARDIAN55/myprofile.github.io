@@ -1,0 +1,394 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #8d8d8d;
+    color: #000000;
+    background-image: repeating-linear-gradient(to bottom, #2F312F, #6BF07C, #2F312F);
+    box-shadow: 5px 5px 5px 5px #242424;
+    border: 1px solid #000000;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 15em;
+    width: 75%;
+}
+
+section {
+    padding: 3em 6em;
+}
+
+main {
+    padding-bottom: 20px;
+    display: block;
+    background-color: #a8a8a8;
+    overflow: auto;
+}
+
+main p:first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2F312F;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+}
+
+footer {
+    font-size: 75%;
+    font-style: Italic;
+    font-family: Georgia, "Times New Roman", serif;
+    padding: 2em;
+    text-align: center;
+    background-color: #4a4d4a;
+}
+
+/*header style*/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #2f312f;
+    height: 3%;
+    padding: 1.5em;
+}
+
+header img {
+    width: 100px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:link {
+    color: #6bf07c;
+}
+
+header a:visited {
+    color: #6bf07c;
+}
+
+header a:hover {
+    color: #000000;
+}
+
+/*nav style*/
+
+nav li {
+    font-family: "Copperplate Gothic", "Times New Roman", serif;
+    font-weight: bold;
+    padding: 2em;
+    height: 400%;
+    font-size: 125%;
+    display: inline;
+    text-align: center;
+    padding: .25em;
+    justify-content: space-between;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.5em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #6BF07C;
+    text-shadow: 0px 3px 3px #36a03b;
+}
+
+nav a:visited {
+    color: #000000;
+}
+
+nav a:hover {
+    color: #08960f;
+}
+
+/*headers style*/
+
+h1 {
+    font-family: "Copperplate Gothic", "Times New Roman", serif;
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 0;
+    font-size: 3em;
+    font-stretch: 0.25em;
+    text-shadow: 0px 3px 3px #36a03b;
+}
+
+h2 {
+    font-family: "Copperplate Gothic", Georgia, serif;
+    color: #252525;
+    text-align: center;
+    text-shadow: 0px 2px 2px #36a03b;
+    margin: 10px 10px 10px 10px;
+}
+
+h3 {
+    font-family: "Copperplate Gothic", Georgia, serif;
+    color: #252525;
+    text-shadow: 0px 1px 1px #36a03b;
+}
+
+/*text style*/
+
+p {
+    line-height: 145%;
+}
+
+/* about section */
+
+.hero {
+    background-image: url(../images/junglemain4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3em;
+    height: 50vh;
+}
+
+.about {
+    padding: 1em;
+}
+
+.about h2 {
+    padding: .5em;
+}
+
+.myphoto {
+    width: 20vh;
+    align-content: left;
+    padding: .5em;
+    padding-right: 1.5em;
+}
+
+.about p {
+    text-indent: 2em;
+    padding-right: 6em;
+}
+
+.about .flex-container {
+    display: flex;
+}
+
+.flexaboutright {
+    flex-basis: 48%;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2em;
+    float: left;
+}
+
+.flexaboutleft {
+    text-align: left;
+}
+
+/* contact section */
+
+.contact {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.contactform {
+    margin: 3em auto;
+    background-color: #E9E9E9;
+    border: 1px solid darkgray;
+    padding-right: 2em;
+}
+
+.contactform h3 {
+    text-align: left;
+    padding-top: .7em;
+    padding-left: 1em;
+    font-family: "Copperplate Gothic", Georgia, serif;
+    color: #252525;
+    text-shadow: 0px 1px 1px #6aa569;
+}
+
+form {
+    padding: 0em 2em 2em 2em;
+}
+
+form input {
+    height: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: .5em 0em;
+}
+
+input [type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.btn {
+    background-color: #4a4d4a;
+    color: #36a03b;
+    border: 3px solid #2f312f;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    padding: .5em;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    background-color: #2f312f;
+}
+
+/* skills section */
+
+.skills {
+    padding: 2em;
+    width: 85%;
+    margin-bottom: 1em;
+}
+
+.skillsimg {
+    box-shadow: 5px 5px 5px 5px #242424;
+    border: 1px solid #000000;
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+dd {
+    padding: 1.5em;
+    padding-top: 2em;
+    font-family: "Copperplate Gothic", Georgia, serif;
+    color: #252525;
+    text-shadow: 0px 1px 1px #36a03b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+dt {
+    padding: 1.5em;
+    text-indent: 1.5em;
+}
+
+dt:first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2F312F;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+}
+
+hr {
+    border-width: 2px;
+    border: solid #2f312f;
+}
+
+/* portfolio section */
+
+.portfolio {
+    padding: 2em;
+    width: 85%;
+    margin-bottom: 1em;
+    justify-content: center;
+}
+
+.webdev {
+    padding: 1.5em;
+}
+
+#portfoliotext {
+    padding: 3em;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-indent: 2em;
+}
+
+.mybikesold {
+    float: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    width: 715px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px 5px #242424;
+    border: 1px solid #000000;
+}
+
+.fitness {
+    float: center;
+    display: flex;
+    width: 505px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px 5px #242424;
+    border: 1px solid #000000;
+}
+
+.photography {
+    padding: 1.5em;
+
+}
+
+.orangeflower {
+    float: left;
+    display: flex;
+    width: 300px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px 5px #242424;
+    border: 1px solid #000000;
+}
+
+.yellowflower {
+    float: center;
+
+    display: inline;
+    display: flex;
+    width: 358px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px 5px #242424;
+    border: 1px solid #000000;
+}
+
+.cooking {
+    padding: 1.5em;
+
+}
+
+.mintcake {
+    float: left;
+    display: flex;
+    width: 300px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px 5px #242424;
+    border: 1px solid #000000;
+}
+
+.spaghetti {
+    float: center;
+    display: column;
+    display: flex;
+    width: 300px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px 5px #242424;
+    border: 1px solid #000000;
+}
